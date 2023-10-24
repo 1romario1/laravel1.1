@@ -1,0 +1,155 @@
+*{
+    margin:0;
+    padding:0;
+}
+       
+body{
+    background-color: rgb(252, 252, 238);
+    margin: 0 auto;
+    padding: 22px 0;
+    width: 800px;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 100px;
+    color:rgb(192, 192, 1);
+}
+.menu li a{
+    color: rgb(245, 241, 44);
+}
+h3{
+    font-size:22px;
+    color:rgb(1, 187, 42);
+    line-height: 25px;
+}
+p{
+    padding-bottom: 8px;
+}
+
+
+nav{
+    background-color: rgb(9, 63, 240);
+    margin-top: 5px;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    padding-bottom: 2px;
+    left: 0px;
+}
+
+.navegador{
+    height: 68px;
+    align-content: center;   
+}
+.navegador .menu ul li a{
+    color:rgb(245, 241, 44);
+    width: 199px;
+}
+
+.navegador .menu a{
+    text-decoration: none;
+}
+.menu li{
+    position: relative;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    font-size: 25px;
+}
+.menu li a{
+    display: block;
+    padding:10px 20px;
+    padding-bottom: 20px;
+}
+.menu li:hover{
+    background-color: rgb(21, 110, 243);
+    padding: 5px;
+}
+
+
+/*submenu*/
+.submenu{
+    display: none;
+    background-color: rgb(10, 44, 238);
+    position:absolute;
+    width: 239px;
+    list-style: none;
+    align-content: center;
+    margin-left: -5px;
+}
+.submenu li a{
+    text-align: center;
+}
+
+.menu li:hover .submenu{
+    display:block;
+}
+.Articulo h1,h2{
+    color: rgb(192, 192, 1);
+}
+.Articulo h1{
+    margin-top: -25px;
+}
+.Articulo p{
+    text-align: justify;
+}
+.Articulo header p,.Articulo header p a{
+    font-size: 50px;
+    color: rgb(226, 43, 171);
+}
+.Articulo header p a:hover{
+    text-decoration: none;
+}
+section img{
+    margin: 25px 0;
+    box-shadow: 1px 15px 40px rgba(20, 20, 20, 0.5);
+    width: 190px;
+    height: 150px;
+}
+
+/*contenido*/
+
+.contenido{
+    display: table;  
+    margin-top: 150px;  
+}
+/*renderizar estado a columnas*/
+.Entidad{
+    display: table-cell;
+    
+}
+/*se fija el contenido a columnas*/
+.Articulo{
+    column-count: 2;
+    column-gap: 10px;
+}
+.Articulo li{
+    width: 150px;
+}
+section a{
+    color: rgb(1, 187, 42);    
+}
+section a:hover{
+    color: rgb(0, 90, 20);
+}
+.bandera{
+    width: 400px;
+    height: 400px;
+    margin-left: 180px;
+}
+
+
+/*sirve para acomodar de mejor manera como queremos que se vea en pantallas moviles*/
+
+
+@media screen and (max-width: 767px) {
+
+}
+
+/*para una mejor visualizacion en las tabled*/
+
+@media screen and (min-width: 768px) and (max-width: 940px) {
+    
+}
